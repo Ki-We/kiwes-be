@@ -1,13 +1,10 @@
 package server.api.kiwes.jwt.exception;
 
-public class JwtException extends RuntimeException{
+import server.api.kiwes.global.response.BaseResponseType;
+import server.api.kiwes.global.response.BizException;
 
-    private final String message;
-
-    public JwtException(String message){
-        this.message = message;
-    }
-    public String getMessage(){
-        return this.message;
+public class JwtException extends BizException {
+    public JwtException(BaseResponseType baseExceptionType) {
+        super(baseExceptionType);
     }
 }

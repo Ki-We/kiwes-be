@@ -1,7 +1,6 @@
-package server.api.kiwes.response;
+package server.api.kiwes.global.response;
 
 import lombok.Getter;
-import server.api.kiwes.response.BaseResponseType;
 
 @Getter
 public class BizException extends RuntimeException{

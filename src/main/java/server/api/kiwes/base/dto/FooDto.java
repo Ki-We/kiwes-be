@@ -1,4 +1,4 @@
-package server.api.kiwes.dto;
+package server.api.kiwes.base.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,10 +1,10 @@
 package server.api.kiwes.jwt.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kiwes.backend.jwt.exception.JwtException;
-import com.nimbusds.oauth2.sdk.ErrorObject;
+
 import org.springframework.http.MediaType;
 import org.springframework.web.filter.OncePerRequestFilter;
+import server.api.kiwes.jwt.exception.JwtException;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

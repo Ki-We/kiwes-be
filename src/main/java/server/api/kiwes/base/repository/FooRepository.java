@@ -1,7 +1,7 @@
-package server.api.kiwes.repository;
+package server.api.kiwes.base.repository;
 
 import org.springframework.stereotype.Repository;
-import server.api.kiwes.domain.Foo;
+import server.api.kiwes.base.domain.Foo;
 
 import java.util.Optional;
 
