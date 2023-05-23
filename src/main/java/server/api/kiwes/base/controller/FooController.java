@@ -1,4 +1,4 @@
-package server.api.kiwes.controller;
+package server.api.kiwes.base.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import server.api.kiwes.dto.FooDto;
+import server.api.kiwes.base.dto.FooDto;
 import server.api.kiwes.response.BizException;
 import server.api.kiwes.response.ResponseMessage;
 import server.api.kiwes.response.foo.FooResponseType;
-import server.api.kiwes.service.FooService;
+import server.api.kiwes.base.service.FooService;
 
 import static io.swagger.v3.oas.annotations.enums.ParameterIn.*;
 

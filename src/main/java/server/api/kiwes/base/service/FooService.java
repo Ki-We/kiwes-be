@@ -1,12 +1,12 @@
-package server.api.kiwes.service;
+package server.api.kiwes.base.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import server.api.kiwes.domain.Foo;
-import server.api.kiwes.dto.FooDto;
-import server.api.kiwes.repository.FooRepository;
+import server.api.kiwes.base.dto.FooDto;
+import server.api.kiwes.base.repository.FooRepository;
 import server.api.kiwes.response.BizException;
 import server.api.kiwes.response.foo.FooResponseType;
 
