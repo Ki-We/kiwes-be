@@ -1,9 +1,9 @@
-package server.api.kiwes.response.foo;
+package server.api.kiwes.global.response.foo;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;
-import server.api.kiwes.response.BaseResponseType;
+import server.api.kiwes.global.response.BaseResponseType;
 
 @Getter
 @AllArgsConstructor

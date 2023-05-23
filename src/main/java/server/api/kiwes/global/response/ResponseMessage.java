@@ -1,4 +1,4 @@
-package server.api.kiwes.response;
+package server.api.kiwes.global.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
