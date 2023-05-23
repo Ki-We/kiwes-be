@@ -24,12 +24,19 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+	implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
+	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.1'
+	implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.13.1'
+	implementation group: 'com.auth0', name: 'java-jwt', version: '3.10.2'
+
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
 //	testImplementation 'org.springframework.security:spring-security-test'
+
 }
 
 tasks.named('test') {

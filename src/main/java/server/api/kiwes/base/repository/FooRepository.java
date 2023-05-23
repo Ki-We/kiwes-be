@@ -3,6 +3,7 @@ package server.api.kiwes.base.repository;
 import org.springframework.stereotype.Repository;
 import server.api.kiwes.domain.Foo;
 
+
 import java.util.Optional;
 
 @Repository
