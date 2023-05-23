@@ -1,4 +1,4 @@
-package server.api.kiwes.response;
+package server.api.kiwes.global.response;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package server.api.kiwes.domain;
+package server.api.kiwes.base.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

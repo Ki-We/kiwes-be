@@ -1,4 +1,4 @@
-package server.api.kiwes.response;
+package server.api.kiwes.global.response;
 
 import org.springframework.http.HttpStatus;
 
